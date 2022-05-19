@@ -1,0 +1,17 @@
+[package]
+name = "gobinding-contract"
+version = "0.1.0"
+edition = "2018"
+
+
+[dependencies]
+solana-sdk = "1"
+solana-client = "1"
+yaml-rust = "0.4"
+thiserror = "1"
+home = "0.5.3"
+borsh = "0.9.1"
+libc = "*"
+
+[lib]
+crate-type = ["cdylib", "lib"]
